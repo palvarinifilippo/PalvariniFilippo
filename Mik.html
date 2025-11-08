@@ -1,0 +1,66 @@
+<html>
+<head>
+
+<style>
+    #testo {
+      display: none;             
+      
+    }
+    #testo.visibile {
+      display: block;
+    }
+  </style>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mikimix</title>
+</head>
+<body>
+
+<center><h1>Mikimix</h1></center>
+
+<h3>La storia</h3>
+<img src="http://www.mondorap.it/wp-content/uploads/2015/07/Schermata-2015-07-12-alle-19.25.33.png" width="300" height="250" style="float: right; margin-left: 10px;">
+<p style="display: inline;">Michele Salvemini, colui che diventerà Caparezza, nel 1995 sceglie il suo primo nome d'arte: Mikimix; canterà brani melodici.<br>
+In questo anno partecipa a Sanremo giovani con il brano "Succede solo nei film", tuttavia non si qualifica per l'edizione dell'anno dopo.
+Nel 1996 conduce Segnali di fumo: un programma musicale di videomusic assieme a Paola Maugeri. Sempre nel '96 rilascia il suo primo album "Tengo duro", tra i brani presenti vi è "Donne in minigonne", la canzone che porterà all'edizone di Sanremo giovani dello stesso anno, grazie alla quale si qualifica per Sanremo 97. <br>
+A Sanremo porta "E la notte se ne va" che anticipa l'uscita del suo secondo album "La mia buona stella". "E la notte se ne va" riscuote poco successo, tuttavia questo brano raggiunge la Francia diventando una hit radiofonica.<br>
+Dopo un anno, in cui Michele vive come un fallimento in Italia ed una star in Francia, abbandonerà questo nome publicando il suo ultimo singolo "Vorrei che questo fosse il paradiso".
+</p>
+
+<button id="bottone">vedi dischi</button>
+  <div id="testo">
+
+<h3>Tengo duro</h3>
+<img src="https://i.ytimg.com/vi/Fona6OmWoBs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgWChNMA8=&rs=AOn4CLAtr8Sa2o3_PcaKz1xbxVO_PantHw" width="170" height="200" style="float: left; margin-right: 10px;">
+ <p style="display: inline;">"Tengo duro" è il primo album di Mikimix. Uscito nel 1996, è composto da 10 tracce, pubblicate sotto l'etichetta Columbia.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <h3>La mia buona stella</h3>
+  <img src="imgg.jpg" width="170" height="200" style="float: left; margin-right: 10px;">
+  <p style="display: inline;">"La mia buona stella" è il secondo album di Mikimix. Uscito nel 1997, è composto da 10 trcacce, publicate sotto l'etichetta Columbia.
+  </div>
+
+  <script>
+    const bottone = document.getElementById("bottone");
+    const testo = document.getElementById("testo");
+
+    bottone.addEventListener("click", () => {
+      testo.classList.add("visibile");
+    });
+  </script>
+
+
+</body>
+</html> 
